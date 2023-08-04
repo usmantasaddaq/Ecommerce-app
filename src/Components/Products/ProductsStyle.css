@@ -1,0 +1,13 @@
+.productWrapper{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Four equal columns */
+    grid-gap: 5px;
+}
+.ProductForm{
+    width: 40vw;
+    margin: auto;
+     padding-top: 100px; 
+}
